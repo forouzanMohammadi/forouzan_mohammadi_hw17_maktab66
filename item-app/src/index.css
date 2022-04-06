@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+ font-family: 'Playfair Display', serif;
+
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul{
+  list-style: none;
+}
+.container{
+  display: flex ;
+  
+}
+
+.listContainer{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: rgb(243, 125, 117);
+}
+
+.allItems{
+  width: 50%;
+  background-color: rgb(195, 236, 248);
+}
+h1{
+  text-align: center;
+}
